@@ -1,0 +1,18 @@
+Load Parameter:
+
+Load function pada page atau layout memiliki parameter object, dimana object tersebut memiliki banyak attribute yang berisi informasi data yang bisa kita gunakan
+Object tersebut adalah RequestEvent
+RequestEvent adalah objek parameter yang diterima oleh fungsi load (pada +page.js/+page.server.js atau +layout.js/+layout.server.js), server endpoints (+server.js), dan form actions di SvelteKit. Objek ini berisi berbagai informasi dan utilitas penting tentang request yang sedang berlangsung.
+atttribute:
+1 cookies membaca, mengatur, dan menghapus cookies pada HTTP request/response
+2 fetch versi kustom fetch API yang otomatis meneruskan cookies/kredensial dan mendukung relative URL saat SSR
+3 getClientAddress() mengembalikan alamat IP klien yang membuat request
+4 locals wadah untuk menyimpan data kustom seperti data user yang biasanya diisi dari hooks.server.js
+5 params berisi parameter dinamis dari rute URL seperti [id]
+6 platform berisi data spesifik dari platform hosting atau adapter seperti Cloudflare atau Vercel
+7 request objek Web API Request asli untuk melihat headers, method, dan body request
+8 route berisi informasi rute saat ini, seperti properti id jalur file rute
+9 setHeaders(headers) mengatur HTTP headers pada response seperti cache atau CORS
+10 url objek Web API URL untuk mengambil URL lengkap, pathname, dan query parameters
+
+https://svelte.dev/docs/kit/@sveltejs-kit#RequestEvent 

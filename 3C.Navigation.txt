@@ -1,0 +1,5 @@
+Navigation:
+
+Saat pertama kali URL path diakses via browser, maka svelte kit akan melakukan SSR (Server Side Render)
+Namun ketika kita melakukan navigasi perpindahan halaman, maka akan melakukan CSR (Client Server Render)
+Svelte Kit tidak menggunakan komponen khusus untuk melakukan navigasi perpindahan halaman, kita masih tetap menggunakan element <a>, berbeda dengan React atau Vue yang perlu menggunakan komponen seperti <Link>

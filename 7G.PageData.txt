@@ -1,0 +1,5 @@
+Page Data:
+
+Jika kita ingin membuat load function pada page, kita bisa membuat file +page.ts|js 
+Load function bisa mengembalikan data, dan data tersebut bisa kita ambil di page +page.svelte
+dengan menggunakan attribute data via $props()

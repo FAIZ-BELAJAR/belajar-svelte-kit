@@ -1,0 +1,8 @@
+Layout:
+
+Saat kita membuat halaman web, kadang ktia membuat halaman yang memiliki tata letak(Layout) yang mirip
+Jika kita membuat komponen tipa halaman, maka itu bukan hal yang efektif
+Svelte memiliki fitur yang ibsa kita gunakan untuk membuat Layout
+Untuk membuat alyout kita bisa menmbuat file bernama +layout.svelte pada routes
+Secara default halaman akan dibuat dalam snipped bernama children
+Sehingga kita bisa menggunakan @render(children()) untuk me render layoutnya

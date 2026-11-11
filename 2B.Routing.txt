@@ -1,0 +1,8 @@
+Routing:
+
+Svelte Kit menggunakan filesystem-based router, Artinya pembuatan routing pada URL Path akan dipetakan dalam filesystem
+Misal, jika kita ingin membuat URL path /about
+Maka kita perlu membuat file src/routes/about/+pages.svelte
+Hal ini akan memudahkan, karena kita tidak perlu lagi melakukan pemetaan secara manual
+cukup simpan file Svelte pada folder sesuai dengan URL path yang kita inginkan
+Contoh: src/routes/counter/+page.svelte

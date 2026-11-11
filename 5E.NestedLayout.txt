@@ -1,0 +1,13 @@
+Nested Layout:
+
+Layout Bisa nested(bertingkat).
+Kadang, misal kita ingin membuat halaman yang bertingkat, misal /profile/user,
+/profile/adress, /profile/wallet dan lain lain
+Misal Layout halaman tersebut ingin berbeda dengan Layout utama
+Maka kita bisa membuat Layout pada /routes/profile/+layout.svelte akan ditampilkan dalam children() layout /routes/+layout.svelte
+
+Tugas: 
+Buat layout baru pada /routes/profile/+layout.svelte
+Buat halaman /profile/user
+Buat halaman /profile/address
+Buat halaman /profile/wallet
